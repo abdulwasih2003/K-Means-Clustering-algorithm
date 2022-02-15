@@ -1,5 +1,5 @@
 # Implementation of K-Means Clustering Algorithm
-## Aim
+## Aim:
 To write a python program to implement K-Means Clustering Algorithm.
 ## Equipment’s required:
 1.	Hardware – PCs
@@ -7,18 +7,22 @@ To write a python program to implement K-Means Clustering Algorithm.
 
 ## Algorithm:
 
-### Step1
+### Step1:
 Import the necessary packages.
-### Step2
+### Step2:
 Read the csv file.
-### Step3
+### Step3:
 Scatter plot the applicant income and loan amount.
-### Step4
+### Step4:
 Obtain the kmean clustering for 2 classes.
-### Step5
+### Step5:
 Predict the cluster group of applicant Income and Loan amount.
 ## Program:
 ```
+# To write a python program to implement K-Means Clustering Algorithm.
+# Developed by : Syed Abdul Wasih H
+# Register Number: 212221240057
+
 import pandas as pd
 from sklearn.cluster import KMeans 
 import matplotlib.pyplot as plt
@@ -44,7 +48,7 @@ print("Cluster group for application income 9000 and loanamonunt 120 is",predict
 ```
 ## Output:
 
-### Insert your output
 ![output](1.png)
-## Result
+
+## Result:
 Thus the K-means clustering algorithm is implemented and predicted the cluster class using python program.
